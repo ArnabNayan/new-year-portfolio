@@ -83,14 +83,72 @@
     justify-content:space-evenly;
     margin-top: 45px;
     padding:0 100px;
-}
-.my-plan img{
-    padding:0 60px
-}
+    text-align: center;
+} 
 .my-plan-title{
     font-size:28px;
-    padding:0 25px;
+    margin-top: 10px;
 }
 .my-plan-desc{
     font-size:24px;
+    margin-top: 15px;
+    color:rgba(83, 82, 82, 0.87);
+} 
+.gradient{
+    background-image: url("../images/gradient1.png");
+    background-repeat: no-repeat;
+    padding:30px 160px;
+    border-radius:5%;
+    margin-top: 100px;
+    height:220px;
+    width:100%;
+}
+.gradient-title{
+    margin-top: 35px;
+    color:white;
+    font-size: 35px;
+}
+.footer{
+    background-color: black;
+    height:400px;
+    display: flex;
+    padding:0 130px; 
+     margin-top: 100px; 
+   text-align: left;
+}
+.footer-details{
+    margin-top: 100px;
+    color:white;
+}
+.footer-title{
+    color:white;
+    font-size: 35px;
+}
+
+.footer-desc{
+    color:skyblue;
+      margin-top: 15px; 
+      font-size: 16px;
+      font-weight: 100;
+}
+.subscribe-style{
+    color: white;
+    font-size: 25px;
+    font-weight: 100;
+} 
+.form{
+    border:2px solid wheat;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px; 
+    padding:20px 27px;
+}
+.btn-primary{
+  margin-top:10px;
+  border:none;
+  border-radius: 10%;
+  font-size: 18px;
+  padding:20px;
+  color:tomato;
 }
